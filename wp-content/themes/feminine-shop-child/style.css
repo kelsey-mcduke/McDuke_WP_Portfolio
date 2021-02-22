@@ -1,0 +1,111 @@
+/*
+Theme Name:   Feminine Shop Theme Child
+Theme URI:    https://www.vwthemes.com/themes/free-feminine-wordpress-theme/
+Author: VWThemes/Kelsey McCain (Child)
+Author URI: https://www.vwthemes.com/
+Template: 	feminine-shop
+Description: Feminine Shop is a beautiful WordPress theme for female-centric websites. It has a nice elegant feminist feel to it which makes it suitable for any female-centric shops and businesses. The stunning layout of this responsive theme creates an aura on the screen and enables your website to adjust itself to any screen size giving a great shopping experience to users that are accessing your website through different devices. It is a multipurpose theme that is great for creating feminine fashion blogs as well. With its minimal design, all the attention is focused on the important details depicted on your site. Its Banner includes Call To Action (CTA) buttons that will not only guide the visitors but also play a key role in enhancing the conversion rates of your site. To make your website look absolutely professional, it has all the things included. Easy customization options make it a piece of cake for a novice to carve a website without having to write a single code. This modern theme consists of secure and clean codes to ensure smooth and clutter-free performance. You can be sure that your website will get noticed as it features in the top SERP ranks thanks to the theme’s SEO friendly design. Demo: https://www.vwthemes.net/vw-feminine-pro/
+Tested up to: 5.6
+Requires PHP: 7.2.14
+Version: 0.2.1
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+/* Homepage Styling */
+
+#maincontent {
+  background: url("img/hero_img.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  min-height: 600px;
+}
+
+.landing-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.landing-hero h1 {
+  font: 1em "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif ;
+  text-align: center;
+  padding-left: 150px;
+}
+
+.landing-hero h1 span {
+  font: 1.25em "Pacifico", cursive;
+  color: #ecc39f;
+}
+
+.landing-hero p {
+  font-size: .9em;
+}
+
+.landing-hero p {
+  text-align: right;
+  padding-left: 130px;
+  padding-right: 25px;
+  margin-top: 20px;
+}
+
+.landing-hero .work-button {
+  background-color: #ffdfc4;
+  color: white;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+/* MEDIA QUERIES *?
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+
+  /* HOMEPAGE */
+  .landing-hero h1 {
+    font-size: 1.5em;
+    padding-left: 350px;
+  }
+
+  .landing-hero h1 span {
+    font-size: 1.75em;
+  }
+
+  .landing-hero p {
+    font-size: 1.25em;
+  }
+
+  .landing-hero .work-button {
+    margin: 10px;
+  }
+
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1024px) {
+
+  /* HOMEPAGE */
+  #maincontent {
+    min-height: 800px;
+  }
+  
+  .landing-hero h1 {
+    font-size: 2em;
+  }
+
+  .landing-hero h1 span {
+    font-size: 2.5em;
+  }
+
+  .landing-hero p {
+    font-size: 1.5em;
+  }
+
+  .landing-hero .work-button {
+    font-size: 1.25em;
+  }
+}

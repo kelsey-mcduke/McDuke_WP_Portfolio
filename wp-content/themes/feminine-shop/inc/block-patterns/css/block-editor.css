@@ -1,0 +1,65 @@
+.banner-inner-box h2,
+.product-section h3{
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+}
+p,.banner-inner-box .wp-block-button__link, .product-section .wp-block-button__link, h6.product-sec-text,.wc-block-grid__product-title,.banner-inner-box h6{
+	font-family: 'Poppins', sans-serif;
+}
+.banner-inner-box .wp-block-button__link,
+.product-section .wp-block-button__link{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 0;
+    letter-spacing: 2px;
+}
+h6.product-sec-text,.product-section h3,.wc-block-grid__product-title{
+	color: #19203f !important;
+}
+.banner-inner-box h2{
+	font-weight: 600;
+    line-height: 1.6;
+	font-size: 35px;
+}
+.banner-inner-box h6{
+	font-weight: 600;
+	letter-spacing: 5px;
+}
+/* woocommerce */
+.product-section .wc-block-grid__product-onsale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ffdfc4;
+}
+.product-section .wc-block-grid__product-price.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #19203f;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.wc-block-grid__product-image img {
+    border: solid 2px #19203f;
+    border-radius: 8px;
+}
+a.wp-block-button__link.add_to_cart_button.ajax_add_to_cart{
+	background: #19203f;
+	border-radius: 8px;
+    text-transform: uppercase;
+}
+@media screen and (max-width:1000px) {
+	.banner-inner-box h2 {
+		font-size: 25px;
+	}
+}
+@media (max-width: 781px) and (min-width: 600px){
+	.wp-block-column:not(:only-child) {
+	    flex-basis: calc(92% - 1em)!important;
+	    flex-grow: 0;
+	}
+}
