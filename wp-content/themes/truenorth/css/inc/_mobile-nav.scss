@@ -1,0 +1,28 @@
+/* -----------------------------------------
+  09.  MOBILE MENU
+----------------------------------------- */
+#mobilemenu {
+	display: none;
+
+	@media ( max-width: $screen-xs-max ) {
+		display: block;
+	}
+}
+
+.menu-trigger,
+.menu-trigger:focus {
+	padding: 10px;
+	background: none;
+	cursor: pointer;
+	margin: 0;
+	outline: none;
+	color: #333;
+	font-size: 30px;
+	line-height: 1;
+	display: none;
+	text-align: right;
+
+	@media (max-width: $screen-xs-max ) {
+		display: block;
+	}
+}

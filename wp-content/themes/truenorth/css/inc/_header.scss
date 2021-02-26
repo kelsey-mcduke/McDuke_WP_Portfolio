@@ -1,0 +1,48 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+
+/* Logo
+=================================== */
+
+.hero {
+	position: relative;
+	background-position: center center;
+	background-size: cover;
+	width: 100%;
+	height: 390px;
+	margin: 50px 0 75px 0;
+}
+
+.logo{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	.site-logo {
+		font-family: $primary-font;
+		font-weight: bold;
+		line-height: 1;
+		letter-spacing: -0.05em;
+		font-size: 36px;
+		margin-bottom: 5px;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	&.footer-logo {
+		position: static;
+		text-align: center;
+		margin-bottom: 100px; 
+		transform: none;
+
+		.site-logo {
+			font-size: 24px; 
+		} 
+	}
+
+}

@@ -1,0 +1,13 @@
+.truenorth-upload-input {
+  position: relative;
+}
+
+.truenorth-upload-input a {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+
+.truenorth-upload-input input.uploaded {
+  padding-right: 70px;
+}
